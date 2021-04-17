@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(90deg, blue, darkviolet) center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    padding: 40px 20px;
+    background: #f4f4f4;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px 0px #000;
+}
+
+.box button {
+    width: 100%;
+    padding: 20px 0;
+    margin: 5px 0;
+    font-size: 30px;
+    box-shadow: 0px 0px 15px -5px #000;
+    border-radius: 10px;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.account p {
+    margin-left: 5px;
+}
+
+.student-name {
+    font-size: 25px;
+}
